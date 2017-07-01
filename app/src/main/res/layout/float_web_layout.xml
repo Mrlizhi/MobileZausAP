@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#00000000">
+    <WebView android:id="@+id/web"
+		android:layout_marginLeft="-2000dip"
+		android:layout_width="900px"
+		android:layout_height="1600px"
+	    android:visibility="visible"
+		android:layout_gravity="center"
+	    />
+</FrameLayout>
